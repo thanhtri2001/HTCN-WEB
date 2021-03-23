@@ -1,0 +1,60 @@
+nav{
+    display: block;
+    position: absolute;
+    top: 0px;
+    width: 75%;
+    background-color: green;
+    }
+nav li{
+    list-style-type: none ;
+    display: inline;
+    margin-right: 20px;
+    font-size: 25px;
+}
+nav a:link{
+    color: #fff;
+    text-decoration: none;
+}
+nav a:hover{
+    color: orange;
+    text-decoration: none;
+    }
+    nav li > ul {
+        display: none;
+     }
+     nav li:hover ul{
+    display: block;position: absolute;
+    left: 200px;
+    background-color: green;margin: 0px;
+}
+nav li:hover ul li a:link{
+    display: block;margin-left: -30px;
+}
+.a1{
+    clear: both;
+    margin-top: 200px;
+}
+a{
+    text-decoration: none;
+}
+div ul li{
+    display: inline-block;
+}
+div {
+    background-color: rgb(240, 26, 62);
+    width: 75%;
+    height: 50px;
+}
+ul li a{
+ padding-left: 20px;
+    list-style-type: none;
+    font-size: 30px;
+    color: white;
+}
+ul li a:hover
+{
+    background-color: red;
+}
+*{
+    box-sizing: border-box;
+}
